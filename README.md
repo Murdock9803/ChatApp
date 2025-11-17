@@ -29,11 +29,13 @@ Point camera at the QR code in terminal
 ```
 
 ## Features
-- `Chat List`: Browse all conversations
-- `Search`: Use search bar to filter contacts
-- `Send Messages`: Tap any contact to open chat and send messages
-- `Offline Mode`: Turn on Airplane Mode to test offline functionality
-- `Settings`: Tap ⚙️ icon in top-right corner
+1. `Offline Mode syncing/caching`: User sends message being offline, then backend-based sync of messages when the user comes online (use-case: unstable-network areas).
+2. `Backend UI updates`: The backend team pushes a new UI design, and the app adapts instantly (use-case: festive season).
+3. `Loader Animations`: Cool animations for loading, typing, and skeleton animation.
+4. `Chat List`: Browse all conversations.
+5. `Search`: Use the search bar to filter contacts by name (working).
+6. `Send Messages`: Tap any contact to open chat and send messages.
+7. `Settings`: Tap icon in top-right corner to access profile info, account info, etc..
 
 ## Project Structure
 ```
@@ -48,4 +50,4 @@ ChatAppOffline/
 └── package.json
 ```
 
-Made by Ayush, Thank You!
+Made by [Ayush](https://murdock9803.github.io/Ayush-Portfolio/), Thank You!
