@@ -1,0 +1,21 @@
+{
+  "theme": {
+    "primaryColor": "#2196F3",
+    "secondaryColor": "#E0E0E0",
+    "sentMessageColor": "#2196F3",
+    "receivedMessageColor": "#E0E0E0",
+    "backgroundColor": "#F5F5F5",
+    "headerColor": "#2196F3"
+  },
+  "features": {
+    "enableTypingIndicator": true,
+    "enableOnlineStatus": true,
+    "enableMessageStatus": true,
+    "enableSearch": true
+  },
+  "ui": {
+    "appName": "ChatApp",
+    "messageInputPlaceholder": "Type a message...",
+    "searchPlaceholder": "Search chats..."
+  }
+}
